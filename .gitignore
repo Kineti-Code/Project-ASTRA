@@ -1,1 +1,9 @@
 /Library
+/Build
+/Logs
+/obj
+/Recordings
+WebBuild/TemplateData/
+WebBuild/index.html
+.sln
+.csproj
