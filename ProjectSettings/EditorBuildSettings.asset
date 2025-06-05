@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 51e2c00a81268164284c3f82189e2047
+  - enabled: 1
+    path: Assets/Scenes/ArtifactDrawer.unity
+    guid: 1bdad2436e2dacf468f499a2de5ab250
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: d88d868dc2b4d8941b6e11d7f1c1a131
+  - enabled: 1
+    path: Assets/Scenes/Terus1.unity
+    guid: fefb5b1a740b840488fd2bab4401cbf7
+  - enabled: 1
+    path: Assets/Scenes/Scopulosus53.unity
+    guid: 42e99c9df06668f4baf73cc9a83023a1
+  - enabled: 1
+    path: Assets/Scenes/Magnus25.unity
+    guid: d682f1372eb28f6448415ece087a81f3
+  - enabled: 1
+    path: Assets/Scenes/Nivalis36.unity
+    guid: 007ccccda547d5a479782a88ce62a229
+  - enabled: 1
+    path: Assets/Scenes/Tenebris9.unity
+    guid: 4eb53c6adff075c4e95fea792d680ec3
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
