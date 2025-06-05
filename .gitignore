@@ -3,7 +3,9 @@
 /Logs
 /obj
 /Recordings
+/UserSettings
+/Temp
 WebBuild/TemplateData/
 WebBuild/index.html
-.sln
-.csproj
+*.sln
+*.csproj
