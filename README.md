@@ -1,4 +1,4 @@
-# ProjectASTRAUnity
+# Project-ASTRA
 This is our game Project ASTRA (Unity version).
 
 ## Important info
@@ -25,7 +25,7 @@ You might think you already finished setting up GitHub if you can read this page
 ![image](https://github.com/user-attachments/assets/12e04e38-103d-42ac-8638-5ad588d61697)
 _Figure 2.1 - Git downloads page_
 
-3) In GitHub Desktop, after you login, press the `Current Repository` dropdown. Then press `Add` --> `Clone Repository`, and you should see one called <ins>ProjectASTRAUnity</ins>. Select it, choose a path to download a copy, and press the blue `Clone` button.
+3) In GitHub Desktop, after you login, press the `Current Repository` dropdown. Then press `Add` --> `Clone Repository`, and you should see one called <ins>Project-ASTRA</ins>. Select it, choose a path to download a copy, and press the blue `Clone` button.
 
 https://github.com/user-attachments/assets/376ee635-5d83-4748-aaa9-388d8842524a
 _Figure 2.2 - Cloning a Repository_
