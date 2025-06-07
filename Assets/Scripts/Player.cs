@@ -76,6 +76,7 @@ public class Player : MonoBehaviour
 
     private GameObject _startPlatform;
     private AudioManager audioManager;
+    private int currentLevel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -83,6 +84,7 @@ public class Player : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         _startPlatform = GameObject.FindWithTag("Start");
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
 
         if (_startPlatform == null)
         {
@@ -101,7 +103,7 @@ public class Player : MonoBehaviour
             _isGrounded = true;
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (currentLevel == 4)
         {
             if (gameObject.GetComponentInChildren<Flashlight>() != null)
             {
@@ -109,12 +111,12 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 7)
+        if (currentLevel == 7)
         {
             breakablePlatforms = FindObjectsByType<BreakablePlatform>(FindObjectsSortMode.None);
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (currentLevel == 3)
         {
             inTutorialMode = true;
         }
@@ -131,7 +133,7 @@ public class Player : MonoBehaviour
             Debug.LogWarning("AudioManager is null");
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 5)
+        if (currentLevel == 5)
         {
             if (vignetteVolume.profile.TryGet(out Vignette vignette))
             {
@@ -346,7 +348,7 @@ public class Player : MonoBehaviour
         sKeyPressTime = -1f;
         controlsEnabled = true;
 
-        if (SceneManager.GetActiveScene().buildIndex == 7 && coldthManager != null)
+        if (currentLevel == 7 && coldthManager != null)
         {
             coldthManager.InitializeColdSystem();
 
@@ -454,6 +456,11 @@ public class Player : MonoBehaviour
 
         if (!_isGrounded || !_isColliding)
         {
+            _hitboxComponent.sharedMaterial = _noFrictionmat;
+        }
+        else if (_isGrounded || _isColliding)
+        {
+            Debug.Log("going back to normal mat");
             _hitboxComponent.sharedMaterial = _normalMat;
         }
 
@@ -491,7 +498,7 @@ public class Player : MonoBehaviour
                 // For platforms that aren't marked as "SlippyDippy", restore normal friction.
                 if (!collision.collider.CompareTag("SlippyDippy"))
                 {
-                    if (_hitboxComponent.sharedMaterial != _normalMat)
+                    if ((_hitboxComponent.sharedMaterial != _normalMat || _hitboxComponent.sharedMaterial != _noFrictionmat) && currentLevel == 7)
                     {
                         StartCoroutine(SlippyDippyCooldown());
                     }
@@ -509,6 +516,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!_isGrounded)
+        {
+            _hitboxComponent.sharedMaterial = _noFrictionmat;
+        }
 
         if (collision.collider.CompareTag("Respawn"))
         {
@@ -535,10 +546,11 @@ public class Player : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
+        Debug.Log("not colliding anymore");
         _isGrounded = false;
         _isColliding = false;
 
-        if (collision.collider.CompareTag("SlippyDippy"))
+        if (collision.collider.CompareTag("SlippyDippy") && currentLevel == 7)
         {
             StartCoroutine(SlippyDippyCooldown());
         }

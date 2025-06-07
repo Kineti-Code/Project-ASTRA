@@ -285,9 +285,4 @@ public class AudioManager : MonoBehaviour
         ambienceSource.volume = ambienceVolume * masterVolume;
         sfxSource.volume = sfxVolume * masterVolume;
     }
-
-    private void Update()
-    {
-        Debug.Log(playerWalkingSource.volume);
-    }
 }
