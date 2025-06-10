@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Coding\\Web\\ProjectASTRAUnity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|c:\\coding\\web\\projectastraunity\\assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|C:\\Coding\\Web\\ProjectASTRAUnity\\assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|c:\\coding\\web\\projectastraunity\\assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|c:\\coding\\web\\projectastraunity\\assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D874AD80-5940-0F11-7FEA-A917029097D3}|Assembly-CSharp.csproj|C:\\Coding\\Web\\ProjectASTRAUnity\\assets\\scripts\\finish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreditsManager.cs",
               "DocumentMoniker": "C:\\Coding\\Web\\ProjectASTRAUnity\\Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
               "ToolTip": "C:\\Coding\\Web\\ProjectASTRAUnity\\Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T02:18:10.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EndGameManager.cs",
               "DocumentMoniker": "C:\\Coding\\Web\\ProjectASTRAUnity\\Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
               "ToolTip": "C:\\Coding\\Web\\ProjectASTRAUnity\\Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T23:42:50.039Z",
               "EditorCaption": ""

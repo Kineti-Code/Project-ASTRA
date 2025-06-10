@@ -35,6 +35,7 @@ public class EndGameManager : MonoBehaviour
 
     private IEnumerator MoveTablet()
     {
+        Time.timeScale = 1;
         ShowCredits();
         while (tabletHandle.transform.localPosition.x < tabletEndPosition)
         {
