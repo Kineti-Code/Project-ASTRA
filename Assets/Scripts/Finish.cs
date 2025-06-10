@@ -63,7 +63,7 @@ public class Finish : MonoBehaviour
                             SceneManager.LoadScene(2);
                         }
 
-                        if (speedrunning && currentScene + 1 <= 8)
+                        else if (speedrunning && currentScene + 1 <= 8)
                         {
                             SceneManager.LoadScene(currentScene + 1);
                         }

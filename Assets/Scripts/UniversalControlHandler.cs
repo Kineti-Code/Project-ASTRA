@@ -42,6 +42,14 @@ public class UniversalControlHandler : MonoBehaviour
         }
     }
 
+    private void TestLevels()
+    {
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            SceneManager.LoadScene(7);
+        }
+    }
+    
     public void OnTabletButtonPress()
     {
         if (popupMessenger.popupQueued)
@@ -131,5 +139,7 @@ public class UniversalControlHandler : MonoBehaviour
         {
             OpenPauseMenu();
         }
+
+        TestLevels();
     }
 }
