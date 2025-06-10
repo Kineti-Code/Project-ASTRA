@@ -4,6 +4,7 @@ using UnityEngine;
 public class EndGameManager : MonoBehaviour
 {
     [Header("Required Components")]
+    [SerializeField] private CreditsManager creditsManager;
     [SerializeField] private OpenPopupOnEnable popupOnEnable;
     [SerializeField] private GameObject tabletHandle;
     [SerializeField] private GameObject tabletPopupUI;
@@ -20,8 +21,6 @@ public class EndGameManager : MonoBehaviour
         {
             ManageEndGame();
         }
-
-        ManageEndGame();
         // otherwise don't do anything
     }
 
@@ -43,6 +42,7 @@ public class EndGameManager : MonoBehaviour
             tabletHandle.transform.localPosition = Vector3.MoveTowards(tabletHandle.transform.localPosition, new Vector3(tabletEndPosition, 0, 0), step);
             yield return null; // Wait for next frame
         }
+        StartCoroutine(creditsManager.ScrollDownCredits());
     }
 
     private void ShowCredits()

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Unity Games\\Project-ASTRA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|c:\\unity games\\project-astra\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|c:\\unity games\\project-astra\\assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\endgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|C:\\Unity Games\\Project-ASTRA\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|c:\\unity games\\project-astra\\assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B01D27-1014-E3EA-C51D-6A5ED8C2708F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\artifactdrawer\\creditsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAtwGEAAABUAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EndGameManager.cs",
+              "DocumentMoniker": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
+              "ToolTip": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArtifactDrawer\\EndGameManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:56:40.456Z"
+              "WhenOpened": "2025-06-10T02:25:53.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAMUBAAAAAAAAAAAAAMgBAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreditsManager.cs",
+              "DocumentMoniker": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
+              "ToolTip": "C:\\Unity Games\\Project-ASTRA\\Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArtifactDrawer\\CreditsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:23:42.205Z",
+              "WhenOpened": "2025-06-10T02:25:53.35Z",
               "EditorCaption": ""
             }
           ]
