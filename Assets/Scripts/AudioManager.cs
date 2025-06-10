@@ -17,25 +17,11 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource playerWalkingSource;
     [SerializeField] private AudioSource extraPlayerSFXSource;
 
-    [Header("Player Movement - Stone")]
+    [Header("Player Movement")]
     public AudioClip stoneWalking;
-    public AudioClip stoneJumping;
-    public AudioClip stoneSliding;
-
-    [Header("Player Movement - Metal")]
     public AudioClip metalWalking;
-    public AudioClip metalJumping;
-    public AudioClip metalSliding;
-
-    [Header("Player Movement - Soil")]
     public AudioClip soilWalking;
-    public AudioClip soilJumping;
-    public AudioClip soilSliding;
-
-    [Header("Player Movement - Grass")]
     public AudioClip grassWalking;
-    public AudioClip grassJumping;
-    public AudioClip grassSliding;
 
     [Header("Player SFX")]
     public AudioClip[] collectArtifact;
@@ -110,25 +96,10 @@ public class AudioManager : MonoBehaviour
     private void initializePlayerSounds()
     {
         movementSounds.Add((SurfaceType.Stone, MovementType.Walking), stoneWalking);
-        movementSounds.Add((SurfaceType.Stone, MovementType.Jumping), stoneJumping);
-        movementSounds.Add((SurfaceType.Stone, MovementType.Sliding), stoneSliding);
-
         movementSounds.Add((SurfaceType.Normal, MovementType.Walking), stoneWalking);
-        movementSounds.Add((SurfaceType.Normal, MovementType.Jumping), stoneJumping);
-        movementSounds.Add((SurfaceType.Normal, MovementType.Sliding), stoneSliding);
-
         movementSounds.Add((SurfaceType.Metal, MovementType.Walking), metalWalking);
-        movementSounds.Add((SurfaceType.Metal, MovementType.Jumping), metalJumping);
-        movementSounds.Add((SurfaceType.Metal, MovementType.Sliding), metalSliding);
-
         movementSounds.Add((SurfaceType.Soil, MovementType.Walking), soilWalking);
-        movementSounds.Add((SurfaceType.Soil, MovementType.Jumping), soilJumping);
-        movementSounds.Add((SurfaceType.Soil, MovementType.Sliding), soilSliding);
-
         movementSounds.Add((SurfaceType.Grass, MovementType.Walking), grassWalking);
-        movementSounds.Add((SurfaceType.Grass, MovementType.Jumping), grassJumping);
-        movementSounds.Add((SurfaceType.Grass, MovementType.Sliding), grassSliding);
-
         movementSounds.Add((SurfaceType.Ladder, MovementType.Climbing), stoneWalking);
         movementSounds.Add((SurfaceType.Hook, MovementType.Climbing), stoneWalking);
     }
