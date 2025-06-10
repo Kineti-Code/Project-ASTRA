@@ -38,8 +38,13 @@ public class PopupMessenger : MonoBehaviour
             StopCoroutine(highlightCoroutine);
             highlightCoroutine = null;
         }
-        tabletHighlight.SetActive(false);
-        popupIndicator.SetActive(false);
+
+        if (tabletHighlight != null && popupIndicator != null)
+        {
+            tabletHighlight.SetActive(false);
+            popupIndicator.SetActive(false);
+        }
+
         popupQueued = false;
         Time.timeScale = 0f;
         tabletMain.SetActive(true);

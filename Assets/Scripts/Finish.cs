@@ -14,6 +14,9 @@ public class Finish : MonoBehaviour
 
     [Header("Level Data")]
     [SerializeField] private int levelNum;
+
+    [Header("Extra parameters")]
+    [SerializeField] private bool lastLevel = false;
     private string levelName => $"Level{levelNum}";
 
     private int numPlayersFinished = 0;
@@ -54,14 +57,15 @@ public class Finish : MonoBehaviour
 
                     if (artifactsCollected >= _artifactsRequired) // level completed
                     {
+                        if (lastLevel)
+                        {
+                            PlayerPrefs.SetInt("Game Completed", 1);
+                            SceneManager.LoadScene(2);
+                        }
+
                         if (speedrunning && currentScene + 1 <= 8)
                         {
                             SceneManager.LoadScene(currentScene + 1);
-                        }
-
-                        else if (speedrunning && currentScene + 1 > 8)
-                        {
-                            // stop timer and stuff
                         }
 
                         else
