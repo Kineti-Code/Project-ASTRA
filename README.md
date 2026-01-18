@@ -1,5 +1,5 @@
 # Project-ASTRA-Redevelopment
-This is the test version where Karthik does redevelopment with the game.
+This is the test version where jigglyseal does redevelopment with the game.
 
 ## Important info
 - Unity Editor Version: 6000.0.33f1
