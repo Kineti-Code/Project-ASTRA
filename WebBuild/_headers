@@ -1,0 +1,11 @@
+/Build/WebBuild.data.br
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+
+/Build/WebBuild.wasm.br
+  Content-Type: application/wasm
+  Content-Encoding: br
+
+/Build/WebBuild.framework.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
